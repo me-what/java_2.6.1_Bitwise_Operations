@@ -28,5 +28,30 @@ public class Main {
 
         byte a = 12;                 // 0000 1100
         System.out.println(~a);     //  1111 0011   или -13
+
+        int a5 = 2;
+        int b5 = 5;
+        int result = b5 * 3 + 20 / 2 * a5--;
+        System.out.println(result + "\n"); // 35
+
+        int num1 = 4;
+        int num2 = 5;
+        int num3 = 15;
+        int num4 = 10;
+        int num5 = 5;
+        int result6 = 12;
+        System.out.println(result6 += num1 * num2 + num3 % num4 / num5); // 33
+        System.out.println();
+
+        int x = 8;
+        int y = 9;
+        int z = x++ + ++y;
+        System.out.println(z); // 18
+        System.out.println();
+
+        double x2 = 8.8;
+        double y2 = 1.5;
+        double z2 = x2 - y2;
+        System.out.println(z2); // 7.300000000000001
     }
 }
